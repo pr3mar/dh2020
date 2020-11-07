@@ -1,4 +1,15 @@
-var mymap = L.map('oilMap').setView([51.505, -0.09], 13);
+const baseUrl = 'http://localhost:5000/api/spills'
+
+function load_spills() {
+  axios.get(baseUrl)
+    .then(data => {
+      console.log(data);
+      // TODO: add the markers to the map
+    })
+    .catch(err => console.log(err))
+}
+
+var mymap = L.map('oilMap').setView([-21., 56.], 5);
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
   maxZoom: 18,

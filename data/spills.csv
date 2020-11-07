@@ -1,9 +1,9 @@
 Spill / Vessel,Location,Dates,Min Tonnes,Max Tonnes,Owner,coords
-El Palito Refinery,"Venezuela, Golfo Triste",8 August 2020,"2,700","2,700",Petróleos de Venezuela,0;0
+El Palito Refinery,"Venezuela, Golfo Triste",8 August 2020,"2,700","2,700",Petróleos de Venezuela,10.694448;-68.201062
 2020 Pointe D'Esny  MV Wakashio oil spill,"Mauritius, Ile Aux Aigrettes and Mahebourg",25 July 2020,"1,300","4,300","Wakashio Suisan Company Limited, Kagoshima, Japan",-20.438119;57.744631
 Trans Mountain oil spill,"Canada, British Columbia, Abbotsford",14 June 2020,118.5,184.87,Trans Mountain,49.064499; -122.159002
 Norilsk diesel fuel spill,"Russia, Norilsk, Krasnoyarsk Krai",29 May 2020,"17,500","17,500",Nornickel,69.379444;87.744444
-Tanker truck pumping out sludge from a vessel,"New Zealand, Tauranga, Bay of Plenty",30 March 2020,1.7,1.7,,0;0
+Tanker truck pumping out sludge from a vessel,"New Zealand, Tauranga, Bay of Plenty",30 March 2020,1.7,1.7,,-37.660155;176.231307
 T.G. Williams Well No. 1 tank battery,"United States, Oakland Creek, Longview",30 March 2020,,,Fortune Resources,32.529057;-94.733881
 Greka Energy oil facility,"United States, Santa Maria",30 March 2020,,,Greka,34.931417;-120.434825
 True Oil pipeline,"United States, North Dakota, Red Wing Creek",27 March 2020,,,True Oil LLC,47.535229;-103.500292
@@ -21,7 +21,7 @@ Port Erin diesel spill (source ),Isle of Man,23 July 2018,,,,54.086;-4.756
 Sanchi oil tanker collision with CF Crystal,East China Sea,6 January 2018,"138,000","138,000",National Iranian Tanker Company,30.332102;125.955678
 Keystone Pipeline 2017 spill,"United States, Marshall County, South Dakota",16 November 2017,"1,322","1,322",TransCanada Corporation,48.361571;-97.751245
 Delta House floating production platform spill,"United States, Gulf of Mexico, near Louisiana",11 October 2017 – 12 October 2017,"1,080","1,280",LLOG Exploration,27.503633;-90.041156
-Agia Zoni II,"Greece, Saronic Gulf, Salamis",10 September 2017,"2,500","2,500",Fos Petroleum SA,0;0
+Agia Zoni II,"Greece, Saronic Gulf, Salamis",10 September 2017,"2,500","2,500",Fos Petroleum SA,37.940739;23.458676
 East River insulating oil spill,"United States, New York",7 May 2017,97,101,Con Edison,0;0
 Energy Transfer Partners Dakota Access Pipeline Leak,"United States, North Dakota",4 April 2017,0.27,0.27,Energy Transfer Partners,0;0
 Ennore oil spill,"India, Chennai, Ennore Port",28 January 2017,251,251,Darya Shipping Solutions,0;0

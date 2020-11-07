@@ -12,7 +12,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-
+.idea
 # Generated files
 .idea/**/contentModel.xml
 
@@ -244,6 +244,8 @@ dmypy.json
 
 # profiling data
 .prof
+
+*oauth*
 
 ### WebStorm ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider

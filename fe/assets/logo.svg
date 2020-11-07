@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="303" height="75" viewBox="0 0 303 75">
+  <g id="Group_19" data-name="Group 19" transform="translate(-50 -34)">
+    <g id="Group_13" data-name="Group 13" transform="translate(-911 83)">
+      <g id="Group_12" data-name="Group 12" transform="translate(621 -140)">
+        <g id="Group_2" data-name="Group 2" transform="translate(340 91)">
+          <rect id="Rectangle_2" data-name="Rectangle 2" width="64" height="75" fill="#c9f158"/>
+        </g>
+        <g id="Group_9" data-name="Group 9" transform="translate(346.284 96.795)">
+          <g id="Group_5" data-name="Group 5" transform="translate(0 4.993)">
+            <g id="Group_3" data-name="Group 3" transform="translate(1.783 1.786)">
+              <path id="Path_1" data-name="Path 1" d="M391.229,121.21l-10.793-10.793-1.585-1.585L368.059,98.039,346,120.084c-1.476,1.84-1.927,4.65-1,8.121a24.039,24.039,0,0,0,5.22,9.259l-.054.055c.261.266.536.518.807.775s.511.547.777.809l.054-.055a24.017,24.017,0,0,0,9.259,5.22c3.471.931,6.281.479,8.121-1Z" transform="translate(-344.516 -98.039)" fill="#1c2b2d"/>
+            </g>
+            <g id="Group_4" data-name="Group 4">
+              <path id="Path_2" data-name="Path 2" d="M365.253,147.323a14.968,14.968,0,0,1-3.867-.543,25.331,25.331,0,0,1-9.589-5.273,1.665,1.665,0,0,1-.516-.345c-.23-.229-.452-.464-.673-.7l-.148-.155c-.289-.27-.539-.5-.781-.748a1.767,1.767,0,0,1-.363-.536,25.287,25.287,0,0,1-5.255-9.568c-1.043-3.889-.57-7.333,1.329-9.7.041-.05.084-.1.13-.146l22.061-22.044a1.786,1.786,0,0,1,2.526,0l23.171,23.171a1.786,1.786,0,0,1,0,2.526l-22.045,22.061c-.046.046-.1.091-.146.132A9.158,9.158,0,0,1,365.253,147.323Zm-11.8-9.05a1.643,1.643,0,0,1,.311.216,22.394,22.394,0,0,0,8.546,4.841c2.717.729,5.011.511,6.472-.611L389.488,122l-20.645-20.645L348.12,122.059c-1.12,1.461-1.338,3.753-.611,6.47a22.365,22.365,0,0,0,4.843,8.546,1.842,1.842,0,0,1,.223.32c.095.091.189.18.286.27.027.025.173.164.2.191l.152.163C353.291,138.1,353.372,138.189,353.454,138.273Z" transform="translate(-343.518 -97.039)" fill="#c9f158"/>
+            </g>
+          </g>
+          <g id="Group_8" data-name="Group 8" transform="translate(18.376)">
+            <g id="Group_6" data-name="Group 6">
+              <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="9.536" cy="16.452" rx="9.536" ry="16.452" transform="matrix(0.706, -0.708, 0.708, 0.706, 0, 13.505)" fill="#1c2b2d"/>
+            </g>
+            <g id="Group_7" data-name="Group 7" transform="translate(3.133 3.14)">
+              <path id="Path_3" data-name="Path 3" d="M377.526,126.461a14.515,14.515,0,0,1-3.694-.513c-7.849-2.076-15.645-9.846-17.747-17.69-1.1-4.112-.461-7.63,1.806-9.9s5.782-2.926,9.893-1.84c7.849,2.074,15.645,9.845,17.747,17.688,1.1,4.112.461,7.63-1.806,9.9A8.483,8.483,0,0,1,377.526,126.461ZM364.1,99.573a5.026,5.026,0,0,0-3.675,1.3c-1.329,1.334-1.645,3.626-.886,6.456,1.77,6.611,8.594,13.414,15.209,15.161,2.83.745,5.12.425,6.449-.909s1.645-3.626.886-6.456c-1.77-6.611-8.594-13.412-15.209-15.161A10.987,10.987,0,0,0,364.1,99.573Z" transform="translate(-355.558 -96.002)" fill="#c9f158"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_10" data-name="Group 10" transform="translate(388.976 118.726)">
+          <rect id="Rectangle_3" data-name="Rectangle 3" width="5.657" height="27.54" rx="1.583" fill="#1c2b2d"/>
+        </g>
+        <g id="Group_11" data-name="Group 11" transform="translate(388.976 150.657)">
+          <rect id="Rectangle_4" data-name="Rectangle 4" width="5.657" height="7.108" rx="1.583" fill="#1c2b2d"/>
+        </g>
+      </g>
+    </g>
+    <text id="your_local_oil_spill_" data-name="your localoil spill!" transform="translate(129 69)" fill="#c9f158" font-size="37" font-family="Rubik-Bold, Rubik" font-weight="700" letter-spacing="-0.03em"><tspan x="0" y="0">YOUR LOCAL</tspan><tspan x="0" y="31">OIL SPILL!</tspan></text>
+  </g>
+</svg>

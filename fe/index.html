@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>OilSpillMap</title>
+
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
           integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
           crossorigin=""/>
+
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
             integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-            crossorigin=""></script>
+  crossorigin=""></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/css/tabby-ui.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/tabby/dist/js/tabby.polyfills.min.js"></script>
+
     <style>
         html,
         body {
@@ -23,6 +30,36 @@
             height: 100%;
             width: 100%;
         }
+
+        .leaflet-popup .title {
+            margin-bottom: 5px;
+        }
+
+        .leaflet-popup hr {
+            margin: 10px 0;
+        }
+        .leaflet-popup-content {
+            width: 250px;
+        }
+
+        .tab-container {
+            position: relative;
+            height: 100%;
+        }
+        .tab {
+            float:left;
+            background: white;
+            width: 100%;
+        }
+
+        .tab:not(:target),
+        .tab:first-child:not(:target){
+            display:none;
+        }
+        .tab:target,
+        .tab:first-child {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -30,6 +67,5 @@
 <div id="oilMap"></div>
 
 <script src="scripts/map.js"></script>
-
 </body>
 </html>

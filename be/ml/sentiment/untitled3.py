@@ -4,8 +4,7 @@ Created on Sat Nov  7 16:34:45 2020
 
 @author: Bosec
 """
-titles = []
-datas = []
+import itertools
 import spacy
 from spacy import displacy
 from collections import Counter
@@ -21,6 +20,7 @@ import pandas as pd
 import seaborn as sns
 from graphviz import Digraph, Graph
 import networkx as nx
+from nltk.tokenize import sent_tokenize
 
 def build_graph(from_list, to_list):
     dot = Graph(strict=True)
@@ -36,42 +36,104 @@ def build_graph(from_list, to_list):
                 dot.edge(e,p)
     print(dot.source)  # doctest: +NORMALIZE_WHITESPACE
     dot.render()          
-    
-def extract_money(mapped):
-    mon = list()
-    for m in mapped:
-        print(type(m))
-        if "MONEY" in m:
-            tmp = m["MONEY"]
-            mon = mon + list(set(tmp))
-    return mon
 
 
+def sent_graph(data, name):
+    sentences = sent_tokenize(data)
+    dot = Graph(strict=True, name=name)
+    for sent in sentences:
+        doc = nlp(sent)
+        persons = [X.text for X in doc.ents if X.label_ == "PERSON"]
+        if len(persons) > 1:
+            pairs = list(itertools.combinations(persons[:min(len(persons),10)], 2))
+            for pair in pairs:
+                f, t = pair
+                if not '\t'+f in dot.body:
+                    dot.node(f)
+                if not '\t'+t in dot.body:
+                    dot.node(t)
+                dot.edge(f,t)
+    print(dot.source)
+    dot.render()          
+
+def extract_term(mapped, term="MONEY"):
+    df = pd.DataFrame(mapped)
+    l_temp = df[term].tolist()
+    l_out = []
+    for t in l_temp:
+        if type(t) == type(list()):
+            l_out = l_out + t
+    return l_out
+
+def rank_terms(terms, top_n = 5):
+    counts = Counter(terms)    
+    di = counts.most_common(top_n)
+    outs = [ x for x,y in di]
+    return outs
+
+def export(mapped):
+    for term in ["MONEY", "ORG", "PERSON"]:
+        if not term in mapped[0]:
+            continue
+        raw_terms = extract_term(mapped, term)
+        ranked_terms = rank_terms(raw_terms)
+        print(term, ranked_terms)
+    return   
+
+import pickle
+def imports():
+    with open("text_data.pkl","rb") as f:
+        text_data = pickle.load(f)
+    return text_data
+
+        
 tags = list()
 prsns = list()
 
+texts = []
+
+text_data = imports()
+for text in text_data:
+    mapped = []
+    print(text)
+    dics = {}
+    texted = " ".join(text_data[text])
+    doc = nlp(texted)
+    texts.append(texted)
+    for X in doc.ents:
+        dics[X.label_] = dics.get(X.label_, []) + [X.text]
+    mapped.append(dics)
+    #texts = " ".join(texts)
+    sent_graph(texted, text)
+    export(mapped)
+
+
+exit(0) 
 with open('data.csv',encoding="utf-8") as f:
     f = f.readlines()
     mapped = []
     for line in f:
         dics = {}
         parsed = line.split("|")
-        titles.append(parsed[0][1:-1])
-        datas.append(parsed[1][1:-1])
-        doc = nlp(" ".join([parsed[0][1:-1],parsed[1][1:-1]]))
+        title = parsed[0][1:-1]
+        abstract = parsed[1][1:-1]
+        text = " ".join([title, abstract])
+        doc = nlp(text)
+        texts.append(text)
         for X in doc.ents:
             dics[X.label_] = dics.get(X.label_, []) + [X.text]
-            #if not X.label_ == "CARDINAL" and not X.label_ == "ORDINAL":
             tags = tags + [(X.text, X.label_) for X in doc.ents ]
             if X.label_ == "ORG" or X.label_ ==  "NORG": prsns.append(X.text)            
         mapped.append(dics)
         print(dics.keys())
-prsns=list(set(prsns))
-print(prsns)
+texts = " ".join(texts)
+sent_graph(texts)
 
-extract_money(mapped)
-print([x["QUANTITY"] for x in mapped  if "MONEY" in x])
+prsns=list(set(prsns))
+
+export(mapped)
 exit(0)
+
 
 counts = Counter(tags)    
 di = counts.most_common(50)

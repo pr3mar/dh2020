@@ -2,31 +2,39 @@ import json
 
 from bitcoincli import Bitcoin
 
+DEBUG = False
 
-def write_data(data):
+
+def write_data(data: dict) -> str:
     str_data = json.dumps(data)
-    print(f"dumped: {str_data}")
+    if DEBUG: print(f"dumped: {str_data}")
     str_data = f"{str_data}".encode('utf-8').hex()
-    print(f"hex data = {str_data}")
+    if DEBUG: print(f"hex stored_data = {str_data}")
 
-    raw = bitcoin.createrawtransaction([], {"data": str_data})
-    print(f"raws = {raw}")
+    raw = bitcoin.createrawtransaction([], {"stored_data": str_data})
+    if DEBUG: print(f"raws = {raw}")
 
     funded = bitcoin.fundrawtransaction(raw)
-    print(f"funded = {funded}")
+    if DEBUG: print(f"funded = {funded}")
 
     signed = bitcoin.signrawtransaction(funded['hex'])
-    print(f"signed = {signed}")
+    if DEBUG: print(f"signed = {signed}")
 
     balance = bitcoin.getbalance()
-    print(f"balance = {balance}")
+    if DEBUG: print(f"balance = {balance}")
 
     sent_tx = bitcoin.sendrawtransaction(signed['hex'])
-    print(f"sent tx = {sent_tx}")
+    print(f"stored tx_id = {sent_tx}")
 
-    decoded = bitcoin.decoderawtransaction(signed['hex'])
-    print(f"decoded = {decoded}")
     return sent_tx
+
+
+def retrieve_data(tx: str) -> dict:
+    raw_data = bitcoin.getrawtransaction(tx)
+    decoded_data = bitcoin.decoderawtransaction(raw_data)
+    if DEBUG: print(f"{json.dumps(decoded_data, indent=4)}")
+    data = [x["scriptPubKey"]["asm"].split(' ')[2] for x in decoded_data["vout"] if "OP_RETURN" in x["scriptPubKey"]["asm"]][0]
+    return json.loads(bytes.fromhex(data).decode('utf-8'))
 
 
 if __name__ == '__main__':
@@ -37,5 +45,8 @@ if __name__ == '__main__':
     block_count = bitcoin.getblockcount()
     print(block_count)
 
-    tx = write_data({"data": "new_some", "hello": "World"})
-    print(tx)
+    tx_id = write_data({"stored_data": "new_some", "hello": "World"})
+
+    stored_data = retrieve_data(tx_id)
+    print(stored_data)
+

@@ -21,8 +21,43 @@ const spillMap = L.map('oilMap', {
     .then(data => {
       for (record of data.data) {
         const coords = record.Coords.split(';');
-        console.log(record);
-        L.marker(coords).bindPopup(content
+        console.log("../../data/gifs_/' +` record.Spill` + '.gif");
+        L.marker(coords).bindPopup(
+            '<div class="tabs">' +
+            '<div class="tab" id="tab-1">' +
+            '<div class="content">' +
+          '<b>Spill Info</b>' +
+          '<table>' +
+          '<tr><td>Spill</td><td>' + record.Spill + '</td></tr>' +
+          '<tr><td>Date</td><td>' + record.Dates + '</td></tr>' +
+          '<tr><td>Location</td><td>' + record.Location + '</td></tr>' +
+          '<tr><td>Min tonnes</td><td>' + (record.MinTonnes ? record.MinTonnes : 'N/A') + '</td></tr>' +
+          '<tr><td>Max tonnes</td><td>' + (record.MaxTonnes ? record.MaxTonnes : 'N/A') + '</td></tr>' +
+          '<tr><td>Owner</td><td>' + record.Owner + '</td></tr>' +
+          '</table>' +
+            '</div>' +
+            '</div>' +
+
+            '<div class="tab" id="tab-2">' +
+            '<div class="content">' +
+            '<b>Timelapse</b>' +
+            '<div><img style="border:2px solid #ccc" width="250" height="250" class="slide_image_gif" src="../data/gifs_/' + record.Spill + '.gif"/></div>' +
+            '</div>' +
+            '</div>' +
+
+            '<div class="tab" id="tab-3">' +
+            '<div class="content">' +
+            '<b>Public reaction</b>' +
+            '<div><img width="250" height="250" class="slide_image_gif" src="../data/imgs_/emotions.png"/></div>' +
+            '</div>' +
+            '</div>' +
+
+            '<ul class="tabs-link">' +
+            '<li class="tab-link"> <a href="#tab-1"><span>Spill Info</span></a></li>' +
+            '<li class="tab-link"> <a href="#tab-2"><span>Timelapse</span></a></li>' +
+            '<li class="tab-link"> <a href="#tab-3"><span>Public reaction</span></a></li>' +
+            '</ul>' +
+        '</div>'
             // '<div data-tabs>' +
 
   //         '<div class="tab" id="tab-1">' +
@@ -33,7 +68,7 @@ const spillMap = L.map('oilMap', {
   //         '<tr><td>Date</td><td>' + record.Dates + '</td></tr>' +
   //         '<tr><td>Location</td><td>' + record.Location + '</td></tr>' +
   //         '<tr><td>Min tonnes</td><td>' + (record.MinTonnes ? record.MinTonnes : 'N/A') + '</td></tr>' +
-  //         '<tr><td>Max tonnes</td><td>' + (record.MaxTonnes ? record.MinTonnes : 'N/A') + '</td></tr>' +
+  //         '<tr><td>Max tonnes</td><td>' + (record.MaxTonnes ? record.MaxTonnes : 'N/A') + '</td></tr>' +
   //         '<tr><td>Owner</td><td>' + record.Owner + '</td></tr>' +
   //         '</table>' +
   //         '</div>' +
@@ -79,30 +114,30 @@ const overlays = {
 };
 
 L.control.layers(baseLayers, overlays).addTo(spillMap);
-var content = '<div class="tabs">' +
-
-            '<div class="tab" id="tab-1">' +
-            '<div class="content">' +
-            '<b>Tab 1 content</b>' +
-            '</div>' +
-            '</div>' +
-
-            '<div class="tab" id="tab-2">' +
-            '<div class="content">' +
-            '<b>Tab 2 content</b>' +
-            '</div>' +
-            '</div>' +
-
-            '<div class="tab" id="tab-3">' +
-            '<div class="content">' +
-            '<b>Tab 3 content</b>' +
-            '</div>' +
-            '</div>' +
-
-            '<ul class="tabs-link">' +
-            '<li class="tab-link"> <a href="#tab-1"><span>Spill Info</span></a></li>' +
-            '<li class="tab-link"> <a href="#tab-2"><span>Tab 2</span></a></li>' +
-            '<li class="tab-link"> <a href="#tab-3"><span>Tab 3</span></a></li>' +
-            '</ul>' +
-        '</div>';
+// var content = '<div class="tabs">' +
+//
+//             '<div class="tab" id="tab-1">' +
+//             '<div class="content">' +
+//             '<b>Tab 1 content</b>' +
+//             '</div>' +
+//             '</div>' +
+//
+//             '<div class="tab" id="tab-2">' +
+//             '<div class="content">' +
+//             '<b>Tab 2 content</b>' +
+//             '</div>' +
+//             '</div>' +
+//
+//             '<div class="tab" id="tab-3">' +
+//             '<div class="content">' +
+//             '<b>Tab 3 content</b>' +
+//             '</div>' +
+//             '</div>' +
+//
+//             '<ul class="tabs-link">' +
+//             '<li class="tab-link"> <a href="#tab-1"><span>Spill Info</span></a></li>' +
+//             '<li class="tab-link"> <a href="#tab-2"><span>Tab 2</span></a></li>' +
+//             '<li class="tab-link"> <a href="#tab-3"><span>Tab 3</span></a></li>' +
+//             '</ul>' +
+//         '</div>';
 var tabs = new Tabby('[data-tabs]');

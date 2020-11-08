@@ -41,7 +41,8 @@
             margin: 10px 0;
         }
         .leaflet-popup-content {
-            width: 290px;
+            width: 300px;
+          height: 300px;
         }
 
         .tabs {
@@ -119,12 +120,12 @@
 
         }
         .custom_navbar{
-            background:#0087DE;
+            background:;
             color:white;
         }
         #section_two{
-            background: white;
-            height: 150px;
+            background: #0087DE;
+            height: 250px;
              /*display: table;*/
         }
         .button_box{
@@ -137,7 +138,7 @@
         }
 
         #section_three{
-            height: 150px;
+            height: 400px;
             background:white;
         }
         /*.box_button{*/
@@ -145,6 +146,17 @@
         /*    align-self: bottom;*/
 
         /* }*/
+        .image_slide1{
+          width:85%;
+            position: relative;
+            margin-left:150px;
+            margin-up:20px;
+        }
+        #grap{
+          position:relative;
+          margin-top:10px;
+          margin-left:850px;
+        }
 
 
 
@@ -154,17 +166,14 @@
 <body>
 <div class="section_1">
 <nav class="navbar navbar-expand-lg navbar-light custom_navbar" >
-  <a class="navbar-brand" href=""><img src="./assets/logo.svg" width="100" height="100" alt=""></a>
+  <a class="navbar-brand" href=""><img src="./assets/logo.svg" width="200" height="100" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse ml-auto" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#" id="navigation">Home <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
@@ -202,10 +211,14 @@
 </div>
 </div>
 
+
+
+
 <div class="container-fluid" id="section_three">
+ <h3 id="grap"> Extracted graphs</h3>
 
 
-<div class="image_slide">
+<div class="image_slide1">
 <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -214,13 +227,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img  class="images"  src="../data/slideshow/Group_22.png" alt="First slide">
+      <img  class="images"  src="../data/graphs/2.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="images" src="../data/slideshow/Group_23.png" alt="Second slide">
+      <img class="images" src="../data/graphs/3.png" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="images" src="../data/slideshow/Group_24.png" alt="Third slide">
+      <img class="images" src="../data/graphs/4.png" alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -235,20 +248,19 @@
 </div>
 </div>
 
-
-
-</div>
-
 <!-- ---------          SECTION TWO    -->
 <div class="container-fluid" id="section_two">
 
     <div class="d-flex justify-content-center button_box">
-<!--        <button>Bottom button</button>-->
-<!--        <button type="button" class="btn button_style">Visit the map</button>-->
+
         <a href="./mapa.html" class="btn button_style">Visit the map</a>
 
     </div>
 </div>
+
+</div>
+
+
 <!--                      MAP -->
 
 

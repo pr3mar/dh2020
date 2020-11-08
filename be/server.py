@@ -1,14 +1,16 @@
 import pandas as pd
 import pickle
 import json
-from flask import Flask
-from flask_cors import CORS, cross_origin
 import random
 
+from flask import Flask
+from flask_cors import CORS, cross_origin
+from be.bitcoin.bitcoin_interface import BitcoinWrapper
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 app.config['CORS_HEADERS'] = 'Content-Type'
+bitcoinWrapper = BitcoinWrapper()
 
 
 @app.route('/api/hello')
@@ -19,7 +21,12 @@ def hello_world():
 
 @app.route('/api/spills')
 def get_spills():
-    return pd.read_csv('data/spills.csv').to_json(orient='records')
+    return pd.read_csv('data/spills_tx.csv').to_json(orient='records')
+
+
+@app.route('/api/spill/<tx_id>', methods=['GET'])
+def get_spill_tx(tx_id: str):
+    return bitcoinWrapper.retrieve_data(tx_id)
 
 
 @app.route('/api/aggregated/<spill_id>', methods=['GET'])

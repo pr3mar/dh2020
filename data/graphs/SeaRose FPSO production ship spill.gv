@@ -1,0 +1,15 @@
+strict graph "SeaRose FPSO production ship spill" {
+	"Siobhan Coady"
+	"St. John's"
+	"Siobhan Coady" -- "St. John's"
+	Pritchard
+	Husky
+	Pritchard -- Husky
+	"White Rose"
+	"White Rose" -- Husky
+	"White Rose"
+	"White Rose" -- Husky
+	Husky -- Husky
+	"Lesley Rideout"
+	"Lesley Rideout" -- Husky
+}

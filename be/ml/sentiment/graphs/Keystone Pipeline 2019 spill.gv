@@ -1,0 +1,17 @@
+strict graph "Keystone Pipeline 2019 spill" {
+	"Doug Burgum"
+	"Ed Markey"
+	"Doug Burgum" -- "Ed Markey"
+	"Doug Burgum"
+	"D-Mass."
+	"Doug Burgum" -- "D-Mass."
+	"Ed Markey"
+	"D-Mass."
+	"Ed Markey" -- "D-Mass."
+	"Bernie Sanders"
+	"Donald Trump"
+	"Bernie Sanders" -- "Donald Trump"
+	Hayes
+	"Donald Trump"
+	Hayes -- "Donald Trump"
+}

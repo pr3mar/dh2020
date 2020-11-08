@@ -1,0 +1,38 @@
+strict graph "Trans Mountain oil spill" {
+	"Kinder Morgan"
+	"Det Norske Veritas"
+	"Kinder Morgan" -- "Det Norske Veritas"
+	"Justin Trudeau"
+	McCartney
+	"Justin Trudeau" -- McCartney
+	"Dalton Silver"
+	"Sonny McHalsie"
+	"Dalton Silver" -- "Sonny McHalsie"
+	"Hereditary Chief Segwses"
+	"Loralie Dick"
+	"Hereditary Chief Segwses" -- "Loralie Dick"
+	"Hereditary Chief Segwses"
+	Thomas
+	"Hereditary Chief Segwses" -- Thomas
+	"Hereditary Chief Segwses"
+	"Billie Pierre"
+	"Hereditary Chief Segwses" -- "Billie Pierre"
+	"Hereditary Chief Segwses"
+	"Romilly Cavanaugh"
+	"Hereditary Chief Segwses" -- "Romilly Cavanaugh"
+	"Loralie Dick"
+	"Loralie Dick" -- Thomas
+	"Loralie Dick"
+	"Billie Pierre"
+	"Loralie Dick" -- "Billie Pierre"
+	"Loralie Dick"
+	"Romilly Cavanaugh"
+	"Loralie Dick" -- "Romilly Cavanaugh"
+	"Billie Pierre"
+	Thomas -- "Billie Pierre"
+	"Romilly Cavanaugh"
+	Thomas -- "Romilly Cavanaugh"
+	"Billie Pierre"
+	"Romilly Cavanaugh"
+	"Billie Pierre" -- "Romilly Cavanaugh"
+}

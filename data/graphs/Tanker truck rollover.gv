@@ -1,0 +1,8 @@
+strict graph "Tanker truck rollover" {
+	"Joe Biden Presidential Win Crowds"
+	"Joe Biden's"
+	"Joe Biden Presidential Win Crowds" -- "Joe Biden's"
+	"Joe Biden's"
+	"Joe Biden"
+	"Joe Biden's" -- "Joe Biden"
+}

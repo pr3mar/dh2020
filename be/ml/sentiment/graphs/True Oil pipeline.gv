@@ -1,0 +1,22 @@
+strict graph "True Oil pipeline" {
+	"Tad True"
+	"Belle Fourche"
+	"Tad True" -- "Belle Fourche"
+	"Belle Fourche"
+	Baker
+	"Belle Fourche" -- Baker
+	"Belle Fourche"
+	Guernsey
+	"Belle Fourche" -- Guernsey
+	Baker -- Guernsey
+	"Belle Fourche Pipeline"
+	"True Ranches LLC"
+	"Belle Fourche Pipeline" -- "True Ranches LLC"
+	"Lester Hunt"
+	"Allen True"
+	"Lester Hunt" -- "Allen True"
+	Laramie
+	Baker -- Laramie
+	Baker -- Guernsey
+	Laramie -- Guernsey
+}

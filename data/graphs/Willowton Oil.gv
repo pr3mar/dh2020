@@ -1,0 +1,40 @@
+strict graph "Willowton Oil" {
+	"Long Hours"
+	Msunduzi
+	"Long Hours" -- Msunduzi
+	"Mahomed Desai"
+	"Juan Tedder"
+	"Mahomed Desai" -- "Juan Tedder"
+	Willowton
+	"David Swaiden"
+	Willowton -- "David Swaiden"
+	"Dr Anthony Turton"
+	"Inanda Dam"
+	"Dr Anthony Turton" -- "Inanda Dam"
+	"Giovanni de Rosa"
+	Willowton -- "Giovanni de Rosa"
+	Amod
+	Ebrahim
+	Amod -- Ebrahim
+	"Dr Anthony Turton"
+	"Inanda Dam"
+	"Dr Anthony Turton" -- "Inanda Dam"
+	"Edmond Place"
+	"Camps Drift"
+	"Edmond Place" -- "Camps Drift"
+	Willowton -- Willowton
+	"Lamb Moussaka"
+	Cameo
+	"Lamb Moussaka" -- Cameo
+	"Lamb Moussaka"
+	"Sunshine D"
+	"Lamb Moussaka" -- "Sunshine D"
+	"Sunshine D"
+	Cameo -- "Sunshine D"
+	"Shoaib Moosa"
+	"Shoaib Moosa" -- Willowton
+	Graham
+	Graham -- Willowton
+	"David Swaiden"
+	Willowton -- "David Swaiden"
+}

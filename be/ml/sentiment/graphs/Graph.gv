@@ -1,0 +1,44 @@
+strict graph {
+	Mauritius
+	"Greenpeace Africa"
+	Mauritius -- "Greenpeace Africa"
+	"Greenpeace Africa"
+	Mauritius -- "Greenpeace Africa"
+	"Nagashiki Shipping"
+	"Greenpeace Africa"
+	"Nagashiki Shipping" -- "Greenpeace Africa"
+	"Nagashiki Shipping"
+	"Nagashiki Shipping" -- Mauritius
+	"Nagashiki Shipping"
+	"Nagashiki Shipping" -- Mauritius
+	"Pravind Jugnauth"
+	"Greenpeace Africa"
+	"Pravind Jugnauth" -- "Greenpeace Africa"
+	"Pravind Jugnauth"
+	"Pravind Jugnauth" -- Mauritius
+	"Pravind Jugnauth"
+	"Pravind Jugnauth" -- Mauritius
+	"Navid Singh Khadka"
+	"Greenpeace Africa"
+	"Navid Singh Khadka" -- "Greenpeace Africa"
+	"Navid Singh Khadka"
+	"Navid Singh Khadka" -- Mauritius
+	"Navid Singh Khadka"
+	"Navid Singh Khadka" -- Mauritius
+	"Mr Jugnauth"
+	"Greenpeace Africa"
+	"Mr Jugnauth" -- "Greenpeace Africa"
+	"Mr Jugnauth"
+	"Mr Jugnauth" -- Mauritius
+	"Mr Jugnauth"
+	"Mr Jugnauth" -- Mauritius
+	"Greenpeace Africa"
+	Mauritius -- "Greenpeace Africa"
+	"Vassen Kauppaymuthoo"
+	"Greenpeace Africa"
+	"Vassen Kauppaymuthoo" -- "Greenpeace Africa"
+	"Vassen Kauppaymuthoo"
+	"Vassen Kauppaymuthoo" -- Mauritius
+	"Vassen Kauppaymuthoo"
+	"Vassen Kauppaymuthoo" -- Mauritius
+}

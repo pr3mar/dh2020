@@ -1,0 +1,31 @@
+strict graph "2020 Pointe D'Esny  MV Wakashio oil spill" {
+	"Dev Ramkhelawon"
+	"Getty Images"
+	"Dev Ramkhelawon" -- "Getty Images"
+	Maudhoo
+	"Kavy Ramano"
+	Maudhoo -- "Kavy Ramano"
+	"Shinjiro Koizumi"
+	Mauritius
+	"Shinjiro Koizumi" -- Mauritius
+	"Ile aux"
+	Mauritius -- "Ile aux"
+	"Getty Images"
+	Ile
+	"Getty Images" -- Ile
+	"Getty Images"
+	"Laura Morosoli"
+	"Getty Images" -- "Laura Morosoli"
+	"Laura Morosoli"
+	Ile -- "Laura Morosoli"
+	"Pravind Jugnauth"
+	"Pravind Jugnauth" -- Mauritius
+	"Steven Murawski"
+	"Sherry Gilbert"
+	"Steven Murawski" -- "Sherry Gilbert"
+	"Emmanuel Macron"
+	Mauritius -- "Emmanuel Macron"
+	"Sunil Kumar Nandeshwar"
+	"Anglo Eastern"
+	"Sunil Kumar Nandeshwar" -- "Anglo Eastern"
+}

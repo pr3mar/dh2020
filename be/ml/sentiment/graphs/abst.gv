@@ -1,0 +1,14 @@
+strict graph abst {
+	"Sudheer Maudhoo"
+	Mauritius
+	"Sudheer Maudhoo" -- Mauritius
+	"Sunil Kumar Nandeshwar"
+	"Ratna Suboda"
+	"Sunil Kumar Nandeshwar" -- "Ratna Suboda"
+	"Sunil Kumar Nandeshwar"
+	"a Sri Lankan"
+	"Sunil Kumar Nandeshwar" -- "a Sri Lankan"
+	"Ratna Suboda"
+	"a Sri Lankan"
+	"Ratna Suboda" -- "a Sri Lankan"
+}

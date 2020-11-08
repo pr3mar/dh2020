@@ -1,0 +1,5 @@
+strict graph "Sanchi oil tanker collision with CF Crystal" {
+	Sanchi
+	"Kasra Nouri"
+	Sanchi -- "Kasra Nouri"
+}

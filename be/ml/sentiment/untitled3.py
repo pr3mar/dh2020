@@ -72,13 +72,16 @@ def rank_terms(terms, top_n = 5):
     return outs
 
 def export(mapped):
+    prepare_export = {}
     for term in ["MONEY", "ORG", "PERSON"]:
         if not term in mapped[0]:
+            prepare_export[term] = []
             continue
         raw_terms = extract_term(mapped, term)
         ranked_terms = rank_terms(raw_terms)
         print(term, ranked_terms)
-    return   
+        prepare_export[term] = ranked_terms
+    return prepare_export
 
 import pickle
 def imports():
@@ -91,7 +94,7 @@ tags = list()
 prsns = list()
 
 texts = []
-
+outs = {}
 text_data = imports()
 for text in text_data:
     mapped = []
@@ -104,10 +107,12 @@ for text in text_data:
         dics[X.label_] = dics.get(X.label_, []) + [X.text]
     mapped.append(dics)
     #texts = " ".join(texts)
-    sent_graph(texted, text)
-    export(mapped)
+    #sent_graph(texted, text)
+    outs[text] = export(mapped)
 
-
+with open("analysis_data.pkl","wb") as f:
+    pickle.dump(outs,f)
+    
 exit(0) 
 with open('data.csv',encoding="utf-8") as f:
     f = f.readlines()

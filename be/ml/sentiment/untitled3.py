@@ -98,7 +98,7 @@ outs = {}
 text_data = imports()
 for text in text_data:
     mapped = []
-    print(text)
+    continue
     dics = {}
     texted = " ".join(text_data[text])
     doc = nlp(texted)
@@ -109,6 +109,7 @@ for text in text_data:
     #texts = " ".join(texts)
     #sent_graph(texted, text)
     outs[text] = export(mapped)
+
 
 with open("analysis_data.pkl","wb") as f:
     pickle.dump(outs,f)

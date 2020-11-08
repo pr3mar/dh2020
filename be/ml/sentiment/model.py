@@ -63,8 +63,19 @@ def read_tweets(f_path = "tweets_mauritus.txt"):
         f = f.readlines()
         cleaned = [line.strip() for line in f]
         return cleaned
-
-    
+import os
+files = [x for x in os.listdir("../../../data/tweets_reacts")]
+outs = {}
+for x in files:
+    name = x[:-4]
+    with open("../../../data/tweets_reacts/"+x,'r', encoding='utf-8') as f:
+        f = f.readlines()
+        twts = [z.strip() for z in f]
+        outs[name] = get_emotions(twts)
+        print(outs[name])
+import pickle
+with open("../../../data/sentiments.pkl","wb") as f:
+    pickle.dump(outs,f)
 print(test_env())
 
 

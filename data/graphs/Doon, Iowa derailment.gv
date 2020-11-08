@@ -1,0 +1,5 @@
+strict graph "Doon, Iowa derailment" {
+	"Andy Williams"
+	Doon
+	"Andy Williams" -- Doon
+}

@@ -1,0 +1,1584 @@
+// The Round Table
+digraph {
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	"Nagashiki Shipping"
+	Ramsar
+	"Nagashiki Shipping" -> Ramsar
+	"Pravind Jugnauth"
+	Ramsar
+	"Pravind Jugnauth" -> Ramsar
+	"Navid Singh Khadka"
+	Ramsar
+	"Navid Singh Khadka" -> Ramsar
+	"Mr Jugnauth"
+	Ramsar
+	"Mr Jugnauth" -> Ramsar
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	"Vassen Kauppaymuthoo"
+	Ramsar
+	"Vassen Kauppaymuthoo" -> Ramsar
+	Mauritius
+	GMT
+	Mauritius -> GMT
+	Mauritius
+	GMT
+	Mauritius -> GMT
+	"Nagashiki Shipping"
+	GMT
+	"Nagashiki Shipping" -> GMT
+	"Pravind Jugnauth"
+	GMT
+	"Pravind Jugnauth" -> GMT
+	"Navid Singh Khadka"
+	GMT
+	"Navid Singh Khadka" -> GMT
+	"Mr Jugnauth"
+	GMT
+	"Mr Jugnauth" -> GMT
+	Mauritius
+	GMT
+	Mauritius -> GMT
+	"Vassen Kauppaymuthoo"
+	GMT
+	"Vassen Kauppaymuthoo" -> GMT
+	Mauritius
+	"the Mauritius National Crisis Committee"
+	Mauritius -> "the Mauritius National Crisis Committee"
+	Mauritius
+	"the Mauritius National Crisis Committee"
+	Mauritius -> "the Mauritius National Crisis Committee"
+	"Nagashiki Shipping"
+	"the Mauritius National Crisis Committee"
+	"Nagashiki Shipping" -> "the Mauritius National Crisis Committee"
+	"Pravind Jugnauth"
+	"the Mauritius National Crisis Committee"
+	"Pravind Jugnauth" -> "the Mauritius National Crisis Committee"
+	"Navid Singh Khadka"
+	"the Mauritius National Crisis Committee"
+	"Navid Singh Khadka" -> "the Mauritius National Crisis Committee"
+	"Mr Jugnauth"
+	"the Mauritius National Crisis Committee"
+	"Mr Jugnauth" -> "the Mauritius National Crisis Committee"
+	Mauritius
+	"the Mauritius National Crisis Committee"
+	Mauritius -> "the Mauritius National Crisis Committee"
+	"Vassen Kauppaymuthoo"
+	"the Mauritius National Crisis Committee"
+	"Vassen Kauppaymuthoo" -> "the Mauritius National Crisis Committee"
+	Mauritius
+	"The US analytics company"
+	Mauritius -> "The US analytics company"
+	Mauritius
+	"The US analytics company"
+	Mauritius -> "The US analytics company"
+	"Nagashiki Shipping"
+	"The US analytics company"
+	"Nagashiki Shipping" -> "The US analytics company"
+	"Pravind Jugnauth"
+	"The US analytics company"
+	"Pravind Jugnauth" -> "The US analytics company"
+	"Navid Singh Khadka"
+	"The US analytics company"
+	"Navid Singh Khadka" -> "The US analytics company"
+	"Mr Jugnauth"
+	"The US analytics company"
+	"Mr Jugnauth" -> "The US analytics company"
+	Mauritius
+	"The US analytics company"
+	Mauritius -> "The US analytics company"
+	"Vassen Kauppaymuthoo"
+	"The US analytics company"
+	"Vassen Kauppaymuthoo" -> "The US analytics company"
+	Mauritius
+	"Ursa Space Systems"
+	Mauritius -> "Ursa Space Systems"
+	Mauritius
+	"Ursa Space Systems"
+	Mauritius -> "Ursa Space Systems"
+	"Nagashiki Shipping"
+	"Ursa Space Systems"
+	"Nagashiki Shipping" -> "Ursa Space Systems"
+	"Pravind Jugnauth"
+	"Ursa Space Systems"
+	"Pravind Jugnauth" -> "Ursa Space Systems"
+	"Navid Singh Khadka"
+	"Ursa Space Systems"
+	"Navid Singh Khadka" -> "Ursa Space Systems"
+	"Mr Jugnauth"
+	"Ursa Space Systems"
+	"Mr Jugnauth" -> "Ursa Space Systems"
+	Mauritius
+	"Ursa Space Systems"
+	Mauritius -> "Ursa Space Systems"
+	"Vassen Kauppaymuthoo"
+	"Ursa Space Systems"
+	"Vassen Kauppaymuthoo" -> "Ursa Space Systems"
+	Mauritius
+	"BBC World Service"
+	Mauritius -> "BBC World Service"
+	Mauritius
+	"BBC World Service"
+	Mauritius -> "BBC World Service"
+	"Nagashiki Shipping"
+	"BBC World Service"
+	"Nagashiki Shipping" -> "BBC World Service"
+	"Pravind Jugnauth"
+	"BBC World Service"
+	"Pravind Jugnauth" -> "BBC World Service"
+	"Navid Singh Khadka"
+	"BBC World Service"
+	"Navid Singh Khadka" -> "BBC World Service"
+	"Mr Jugnauth"
+	"BBC World Service"
+	"Mr Jugnauth" -> "BBC World Service"
+	Mauritius
+	"BBC World Service"
+	Mauritius -> "BBC World Service"
+	"Vassen Kauppaymuthoo"
+	"BBC World Service"
+	"Vassen Kauppaymuthoo" -> "BBC World Service"
+	Mauritius
+	BBC
+	Mauritius -> BBC
+	Mauritius
+	BBC
+	Mauritius -> BBC
+	"Nagashiki Shipping"
+	BBC
+	"Nagashiki Shipping" -> BBC
+	"Pravind Jugnauth"
+	BBC
+	"Pravind Jugnauth" -> BBC
+	"Navid Singh Khadka"
+	BBC
+	"Navid Singh Khadka" -> BBC
+	"Mr Jugnauth"
+	BBC
+	"Mr Jugnauth" -> BBC
+	Mauritius
+	BBC
+	Mauritius -> BBC
+	"Vassen Kauppaymuthoo"
+	BBC
+	"Vassen Kauppaymuthoo" -> BBC
+	Mauritius
+	MO
+	Mauritius -> MO
+	"Ile aux Aigrettes"
+	MO
+	"Ile aux Aigrettes" -> MO
+	Mauritius
+	MO
+	Mauritius -> MO
+	Mauritius
+	MO
+	Mauritius -> MO
+	Mauritius
+	MO
+	Mauritius -> MO
+	Spillcon
+	MO
+	Spillcon -> MO
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	"Ile aux Aigrettes"
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	"Ile aux Aigrettes" -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Spillcon
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Spillcon -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	UN
+	Mauritius -> UN
+	"Ile aux Aigrettes"
+	UN
+	"Ile aux Aigrettes" -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	Spillcon
+	UN
+	Spillcon -> UN
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	"Ile aux Aigrettes"
+	IMO
+	"Ile aux Aigrettes" -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Spillcon
+	IMO
+	Spillcon -> IMO
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	"Ile aux Aigrettes"
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	"Ile aux Aigrettes" -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Spillcon
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Spillcon -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	UN
+	Mauritius -> UN
+	"Ile aux Aigrettes"
+	UN
+	"Ile aux Aigrettes" -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	Spillcon
+	UN
+	Spillcon -> UN
+	Mauritius
+	State
+	Mauritius -> State
+	"Ile aux Aigrettes"
+	State
+	"Ile aux Aigrettes" -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Spillcon
+	State
+	Spillcon -> State
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	"Ile aux Aigrettes"
+	Ramsar
+	"Ile aux Aigrettes" -> Ramsar
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	Spillcon
+	Ramsar
+	Spillcon -> Ramsar
+	Mauritius
+	SOLAS
+	Mauritius -> SOLAS
+	"Ile aux Aigrettes"
+	SOLAS
+	"Ile aux Aigrettes" -> SOLAS
+	Mauritius
+	SOLAS
+	Mauritius -> SOLAS
+	Mauritius
+	SOLAS
+	Mauritius -> SOLAS
+	Mauritius
+	SOLAS
+	Mauritius -> SOLAS
+	Spillcon
+	SOLAS
+	Spillcon -> SOLAS
+	Mauritius
+	MARPOL
+	Mauritius -> MARPOL
+	"Ile aux Aigrettes"
+	MARPOL
+	"Ile aux Aigrettes" -> MARPOL
+	Mauritius
+	MARPOL
+	Mauritius -> MARPOL
+	Mauritius
+	MARPOL
+	Mauritius -> MARPOL
+	Mauritius
+	MARPOL
+	Mauritius -> MARPOL
+	Spillcon
+	MARPOL
+	Spillcon -> MARPOL
+	Mauritius
+	"Load Lines"
+	Mauritius -> "Load Lines"
+	"Ile aux Aigrettes"
+	"Load Lines"
+	"Ile aux Aigrettes" -> "Load Lines"
+	Mauritius
+	"Load Lines"
+	Mauritius -> "Load Lines"
+	Mauritius
+	"Load Lines"
+	Mauritius -> "Load Lines"
+	Mauritius
+	"Load Lines"
+	Mauritius -> "Load Lines"
+	Spillcon
+	"Load Lines"
+	Spillcon -> "Load Lines"
+	Mauritius
+	State
+	Mauritius -> State
+	"Ile aux Aigrettes"
+	State
+	"Ile aux Aigrettes" -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Spillcon
+	State
+	Spillcon -> State
+	Mauritius
+	State
+	Mauritius -> State
+	"Ile aux Aigrettes"
+	State
+	"Ile aux Aigrettes" -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Spillcon
+	State
+	Spillcon -> State
+	Mauritius
+	States
+	Mauritius -> States
+	"Ile aux Aigrettes"
+	States
+	"Ile aux Aigrettes" -> States
+	Mauritius
+	States
+	Mauritius -> States
+	Mauritius
+	States
+	Mauritius -> States
+	Mauritius
+	States
+	Mauritius -> States
+	Spillcon
+	States
+	Spillcon -> States
+	Mauritius
+	State
+	Mauritius -> State
+	"Ile aux Aigrettes"
+	State
+	"Ile aux Aigrettes" -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Spillcon
+	State
+	Spillcon -> State
+	Mauritius
+	"a State Party"
+	Mauritius -> "a State Party"
+	"Ile aux Aigrettes"
+	"a State Party"
+	"Ile aux Aigrettes" -> "a State Party"
+	Mauritius
+	"a State Party"
+	Mauritius -> "a State Party"
+	Mauritius
+	"a State Party"
+	Mauritius -> "a State Party"
+	Mauritius
+	"a State Party"
+	Mauritius -> "a State Party"
+	Spillcon
+	"a State Party"
+	Spillcon -> "a State Party"
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	"Ile aux Aigrettes"
+	SDR
+	"Ile aux Aigrettes" -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Spillcon
+	SDR
+	Spillcon -> SDR
+	Mauritius
+	"Bunkers Convention"
+	Mauritius -> "Bunkers Convention"
+	"Ile aux Aigrettes"
+	"Bunkers Convention"
+	"Ile aux Aigrettes" -> "Bunkers Convention"
+	Mauritius
+	"Bunkers Convention"
+	Mauritius -> "Bunkers Convention"
+	Mauritius
+	"Bunkers Convention"
+	Mauritius -> "Bunkers Convention"
+	Mauritius
+	"Bunkers Convention"
+	Mauritius -> "Bunkers Convention"
+	Spillcon
+	"Bunkers Convention"
+	Spillcon -> "Bunkers Convention"
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	"Ile aux Aigrettes"
+	SDR
+	"Ile aux Aigrettes" -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Spillcon
+	SDR
+	Spillcon -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	"Ile aux Aigrettes"
+	SDR
+	"Ile aux Aigrettes" -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Mauritius
+	SDR
+	Mauritius -> SDR
+	Spillcon
+	SDR
+	Spillcon -> SDR
+	Mauritius
+	VLSFO
+	Mauritius -> VLSFO
+	"Ile aux Aigrettes"
+	VLSFO
+	"Ile aux Aigrettes" -> VLSFO
+	Mauritius
+	VLSFO
+	Mauritius -> VLSFO
+	Mauritius
+	VLSFO
+	Mauritius -> VLSFO
+	Mauritius
+	VLSFO
+	Mauritius -> VLSFO
+	Spillcon
+	VLSFO
+	Spillcon -> VLSFO
+	Mauritius
+	"Very Low Sulphur Fuel Oil"
+	Mauritius -> "Very Low Sulphur Fuel Oil"
+	"Ile aux Aigrettes"
+	"Very Low Sulphur Fuel Oil"
+	"Ile aux Aigrettes" -> "Very Low Sulphur Fuel Oil"
+	Mauritius
+	"Very Low Sulphur Fuel Oil"
+	Mauritius -> "Very Low Sulphur Fuel Oil"
+	Mauritius
+	"Very Low Sulphur Fuel Oil"
+	Mauritius -> "Very Low Sulphur Fuel Oil"
+	Mauritius
+	"Very Low Sulphur Fuel Oil"
+	Mauritius -> "Very Low Sulphur Fuel Oil"
+	Spillcon
+	"Very Low Sulphur Fuel Oil"
+	Spillcon -> "Very Low Sulphur Fuel Oil"
+	Mauritius
+	VLSFO
+	Mauritius -> VLSFO
+	"Ile aux Aigrettes"
+	VLSFO
+	"Ile aux Aigrettes" -> VLSFO
+	Mauritius
+	VLSFO
+	Mauritius -> VLSFO
+	Mauritius
+	VLSFO
+	Mauritius -> VLSFO
+	Mauritius
+	VLSFO
+	Mauritius -> VLSFO
+	Spillcon
+	VLSFO
+	Spillcon -> VLSFO
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	"Ile aux Aigrettes"
+	PSSA
+	"Ile aux Aigrettes" -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Spillcon
+	PSSA
+	Spillcon -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	"Ile aux Aigrettes"
+	PSSA
+	"Ile aux Aigrettes" -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Spillcon
+	PSSA
+	Spillcon -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	"Ile aux Aigrettes"
+	PSSA
+	"Ile aux Aigrettes" -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Spillcon
+	PSSA
+	Spillcon -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	"Ile aux Aigrettes"
+	PSSA
+	"Ile aux Aigrettes" -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Spillcon
+	PSSA
+	Spillcon -> PSSA
+	Mauritius
+	"Vessel Traffic Services"
+	Mauritius -> "Vessel Traffic Services"
+	"Ile aux Aigrettes"
+	"Vessel Traffic Services"
+	"Ile aux Aigrettes" -> "Vessel Traffic Services"
+	Mauritius
+	"Vessel Traffic Services"
+	Mauritius -> "Vessel Traffic Services"
+	Mauritius
+	"Vessel Traffic Services"
+	Mauritius -> "Vessel Traffic Services"
+	Mauritius
+	"Vessel Traffic Services"
+	Mauritius -> "Vessel Traffic Services"
+	Spillcon
+	"Vessel Traffic Services"
+	Spillcon -> "Vessel Traffic Services"
+	Mauritius
+	VTS
+	Mauritius -> VTS
+	"Ile aux Aigrettes"
+	VTS
+	"Ile aux Aigrettes" -> VTS
+	Mauritius
+	VTS
+	Mauritius -> VTS
+	Mauritius
+	VTS
+	Mauritius -> VTS
+	Mauritius
+	VTS
+	Mauritius -> VTS
+	Spillcon
+	VTS
+	Spillcon -> VTS
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	"Ile aux Aigrettes"
+	PSSA
+	"Ile aux Aigrettes" -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Mauritius
+	PSSA
+	Mauritius -> PSSA
+	Spillcon
+	PSSA
+	Spillcon -> PSSA
+	Mauritius
+	"La Reunion"
+	Mauritius -> "La Reunion"
+	"Ile aux Aigrettes"
+	"La Reunion"
+	"Ile aux Aigrettes" -> "La Reunion"
+	Mauritius
+	"La Reunion"
+	Mauritius -> "La Reunion"
+	Mauritius
+	"La Reunion"
+	Mauritius -> "La Reunion"
+	Mauritius
+	"La Reunion"
+	Mauritius -> "La Reunion"
+	Spillcon
+	"La Reunion"
+	Spillcon -> "La Reunion"
+	Mauritius
+	State
+	Mauritius -> State
+	"Ile aux Aigrettes"
+	State
+	"Ile aux Aigrettes" -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Spillcon
+	State
+	Spillcon -> State
+	Mauritius
+	Organization
+	Mauritius -> Organization
+	"Ile aux Aigrettes"
+	Organization
+	"Ile aux Aigrettes" -> Organization
+	Mauritius
+	Organization
+	Mauritius -> Organization
+	Mauritius
+	Organization
+	Mauritius -> Organization
+	Mauritius
+	Organization
+	Mauritius -> Organization
+	Spillcon
+	Organization
+	Spillcon -> Organization
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	"Ile aux Aigrettes"
+	IMO
+	"Ile aux Aigrettes" -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Spillcon
+	IMO
+	Spillcon -> IMO
+	Mauritius
+	"Technical Cooperation Programme"
+	Mauritius -> "Technical Cooperation Programme"
+	"Ile aux Aigrettes"
+	"Technical Cooperation Programme"
+	"Ile aux Aigrettes" -> "Technical Cooperation Programme"
+	Mauritius
+	"Technical Cooperation Programme"
+	Mauritius -> "Technical Cooperation Programme"
+	Mauritius
+	"Technical Cooperation Programme"
+	Mauritius -> "Technical Cooperation Programme"
+	Mauritius
+	"Technical Cooperation Programme"
+	Mauritius -> "Technical Cooperation Programme"
+	Spillcon
+	"Technical Cooperation Programme"
+	Spillcon -> "Technical Cooperation Programme"
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	"Ile aux Aigrettes"
+	IMO
+	"Ile aux Aigrettes" -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Spillcon
+	IMO
+	Spillcon -> IMO
+	Mauritius
+	State
+	Mauritius -> State
+	"Ile aux Aigrettes"
+	State
+	"Ile aux Aigrettes" -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Mauritius
+	State
+	Mauritius -> State
+	Spillcon
+	State
+	Spillcon -> State
+	Mauritius
+	States
+	Mauritius -> States
+	"Ile aux Aigrettes"
+	States
+	"Ile aux Aigrettes" -> States
+	Mauritius
+	States
+	Mauritius -> States
+	Mauritius
+	States
+	Mauritius -> States
+	Mauritius
+	States
+	Mauritius -> States
+	Spillcon
+	States
+	Spillcon -> States
+	Mauritius
+	"the International Oil Spill Conference (Americas"
+	Mauritius -> "the International Oil Spill Conference (Americas"
+	"Ile aux Aigrettes"
+	"the International Oil Spill Conference (Americas"
+	"Ile aux Aigrettes" -> "the International Oil Spill Conference (Americas"
+	Mauritius
+	"the International Oil Spill Conference (Americas"
+	Mauritius -> "the International Oil Spill Conference (Americas"
+	Mauritius
+	"the International Oil Spill Conference (Americas"
+	Mauritius -> "the International Oil Spill Conference (Americas"
+	Mauritius
+	"the International Oil Spill Conference (Americas"
+	Mauritius -> "the International Oil Spill Conference (Americas"
+	Spillcon
+	"the International Oil Spill Conference (Americas"
+	Spillcon -> "the International Oil Spill Conference (Americas"
+	Mauritius
+	"Interspill (Europe"
+	Mauritius -> "Interspill (Europe"
+	"Ile aux Aigrettes"
+	"Interspill (Europe"
+	"Ile aux Aigrettes" -> "Interspill (Europe"
+	Mauritius
+	"Interspill (Europe"
+	Mauritius -> "Interspill (Europe"
+	Mauritius
+	"Interspill (Europe"
+	Mauritius -> "Interspill (Europe"
+	Mauritius
+	"Interspill (Europe"
+	Mauritius -> "Interspill (Europe"
+	Spillcon
+	"Interspill (Europe"
+	Spillcon -> "Interspill (Europe"
+	Mauritius
+	"the Mauritian Coast Guard"
+	Mauritius -> "the Mauritian Coast Guard"
+	Mauritius
+	"Mitsui O.S.K. Lines"
+	Mauritius -> "Mitsui O.S.K. Lines"
+	Mauritius
+	MOL
+	Mauritius -> MOL
+	Mauritius
+	"the Panama Maritime Authority"
+	Mauritius -> "the Panama Maritime Authority"
+	Mauritius
+	AMP
+	Mauritius -> AMP
+	Mauritius
+	AMP
+	Mauritius -> AMP
+	IMO
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	IMO -> "the UN Office for the Coordination of Humanitarian Affairs"
+	"Ile aux Aigrettes"
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	"Ile aux Aigrettes" -> "the UN Office for the Coordination of Humanitarian Affairs"
+	"Kitack Lim"
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	"Kitack Lim" -> "the UN Office for the Coordination of Humanitarian Affairs"
+	"Mr Lim"
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	"Mr Lim" -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius
+	"the UN Office for the Coordination of Humanitarian Affairs"
+	Mauritius -> "the UN Office for the Coordination of Humanitarian Affairs"
+	IMO
+	UN
+	IMO -> UN
+	"Ile aux Aigrettes"
+	UN
+	"Ile aux Aigrettes" -> UN
+	"Kitack Lim"
+	UN
+	"Kitack Lim" -> UN
+	"Mr Lim"
+	UN
+	"Mr Lim" -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	IMO
+	Ramsar
+	IMO -> Ramsar
+	"Ile aux Aigrettes"
+	Ramsar
+	"Ile aux Aigrettes" -> Ramsar
+	"Kitack Lim"
+	Ramsar
+	"Kitack Lim" -> Ramsar
+	"Mr Lim"
+	Ramsar
+	"Mr Lim" -> Ramsar
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	Mauritius
+	Ramsar
+	Mauritius -> Ramsar
+	IMO
+	UN
+	IMO -> UN
+	"Ile aux Aigrettes"
+	UN
+	"Ile aux Aigrettes" -> UN
+	"Kitack Lim"
+	UN
+	"Kitack Lim" -> UN
+	"Mr Lim"
+	UN
+	"Mr Lim" -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	Mauritius
+	UN
+	Mauritius -> UN
+	IMO
+	UNDP
+	IMO -> UNDP
+	"Ile aux Aigrettes"
+	UNDP
+	"Ile aux Aigrettes" -> UNDP
+	"Kitack Lim"
+	UNDP
+	"Kitack Lim" -> UNDP
+	"Mr Lim"
+	UNDP
+	"Mr Lim" -> UNDP
+	Mauritius
+	UNDP
+	Mauritius -> UNDP
+	Mauritius
+	UNDP
+	Mauritius -> UNDP
+	IMO
+	UNOSAT
+	IMO -> UNOSAT
+	"Ile aux Aigrettes"
+	UNOSAT
+	"Ile aux Aigrettes" -> UNOSAT
+	"Kitack Lim"
+	UNOSAT
+	"Kitack Lim" -> UNOSAT
+	"Mr Lim"
+	UNOSAT
+	"Mr Lim" -> UNOSAT
+	Mauritius
+	UNOSAT
+	Mauritius -> UNOSAT
+	Mauritius
+	UNOSAT
+	Mauritius -> UNOSAT
+	IMO
+	ITOPF
+	IMO -> ITOPF
+	"Ile aux Aigrettes"
+	ITOPF
+	"Ile aux Aigrettes" -> ITOPF
+	"Kitack Lim"
+	ITOPF
+	"Kitack Lim" -> ITOPF
+	"Mr Lim"
+	ITOPF
+	"Mr Lim" -> ITOPF
+	Mauritius
+	ITOPF
+	Mauritius -> ITOPF
+	Mauritius
+	ITOPF
+	Mauritius -> ITOPF
+	IMO
+	IMO
+	IMO -> IMO
+	"Ile aux Aigrettes"
+	IMO
+	"Ile aux Aigrettes" -> IMO
+	"Kitack Lim"
+	IMO
+	"Kitack Lim" -> IMO
+	"Mr Lim"
+	IMO
+	"Mr Lim" -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	Mauritius
+	IMO
+	Mauritius -> IMO
+	IMO
+	LLMC
+	IMO -> LLMC
+	"Ile aux Aigrettes"
+	LLMC
+	"Ile aux Aigrettes" -> LLMC
+	"Kitack Lim"
+	LLMC
+	"Kitack Lim" -> LLMC
+	"Mr Lim"
+	LLMC
+	"Mr Lim" -> LLMC
+	Mauritius
+	LLMC
+	Mauritius -> LLMC
+	Mauritius
+	LLMC
+	Mauritius -> LLMC
+	IMO
+	"IOPC Fund"
+	IMO -> "IOPC Fund"
+	"Ile aux Aigrettes"
+	"IOPC Fund"
+	"Ile aux Aigrettes" -> "IOPC Fund"
+	"Kitack Lim"
+	"IOPC Fund"
+	"Kitack Lim" -> "IOPC Fund"
+	"Mr Lim"
+	"IOPC Fund"
+	"Mr Lim" -> "IOPC Fund"
+	Mauritius
+	"IOPC Fund"
+	Mauritius -> "IOPC Fund"
+	Mauritius
+	"IOPC Fund"
+	Mauritius -> "IOPC Fund"
+	Mauritius
+	"Nagashiki Shipping"
+	Mauritius -> "Nagashiki Shipping"
+	Mauritius
+	"Nagashiki Shipping"
+	Mauritius -> "Nagashiki Shipping"
+	"Pravind Jugnauth"
+	"Nagashiki Shipping"
+	"Pravind Jugnauth" -> "Nagashiki Shipping"
+	"Sudheer Maudhoo"
+	"Nagashiki Shipping"
+	"Sudheer Maudhoo" -> "Nagashiki Shipping"
+	Mauritius
+	"Nagashiki Shipping"
+	Mauritius -> "Nagashiki Shipping"
+	Mauritius
+	"Nagashiki Shipping"
+	Mauritius -> "Nagashiki Shipping"
+	"Vassen Kauppaymuthoo"
+	"Nagashiki Shipping"
+	"Vassen Kauppaymuthoo" -> "Nagashiki Shipping"
+	"MV Benita"
+	"Nagashiki Shipping"
+	"MV Benita" -> "Nagashiki Shipping"
+	"Inspector Shiva Coothen"
+	"Nagashiki Shipping"
+	"Inspector Shiva Coothen" -> "Nagashiki Shipping"
+	"Ratna Suboda"
+	"Nagashiki Shipping"
+	"Ratna Suboda" -> "Nagashiki Shipping"
+	"a Sri Lankan"
+	"Nagashiki Shipping"
+	"a Sri Lankan" -> "Nagashiki Shipping"
+	Mauritius
+	"Mitsui OSK Lines Ltd"
+	Mauritius -> "Mitsui OSK Lines Ltd"
+	Mauritius
+	"Mitsui OSK Lines Ltd"
+	Mauritius -> "Mitsui OSK Lines Ltd"
+	"Pravind Jugnauth"
+	"Mitsui OSK Lines Ltd"
+	"Pravind Jugnauth" -> "Mitsui OSK Lines Ltd"
+	"Sudheer Maudhoo"
+	"Mitsui OSK Lines Ltd"
+	"Sudheer Maudhoo" -> "Mitsui OSK Lines Ltd"
+	Mauritius
+	"Mitsui OSK Lines Ltd"
+	Mauritius -> "Mitsui OSK Lines Ltd"
+	Mauritius
+	"Mitsui OSK Lines Ltd"
+	Mauritius -> "Mitsui OSK Lines Ltd"
+	"Vassen Kauppaymuthoo"
+	"Mitsui OSK Lines Ltd"
+	"Vassen Kauppaymuthoo" -> "Mitsui OSK Lines Ltd"
+	"MV Benita"
+	"Mitsui OSK Lines Ltd"
+	"MV Benita" -> "Mitsui OSK Lines Ltd"
+	"Inspector Shiva Coothen"
+	"Mitsui OSK Lines Ltd"
+	"Inspector Shiva Coothen" -> "Mitsui OSK Lines Ltd"
+	"Ratna Suboda"
+	"Mitsui OSK Lines Ltd"
+	"Ratna Suboda" -> "Mitsui OSK Lines Ltd"
+	"a Sri Lankan"
+	"Mitsui OSK Lines Ltd"
+	"a Sri Lankan" -> "Mitsui OSK Lines Ltd"
+	Mauritius
+	"National Oil Spill Contingency Plan"
+	Mauritius -> "National Oil Spill Contingency Plan"
+	Mauritius
+	"National Oil Spill Contingency Plan"
+	Mauritius -> "National Oil Spill Contingency Plan"
+	"Pravind Jugnauth"
+	"National Oil Spill Contingency Plan"
+	"Pravind Jugnauth" -> "National Oil Spill Contingency Plan"
+	"Sudheer Maudhoo"
+	"National Oil Spill Contingency Plan"
+	"Sudheer Maudhoo" -> "National Oil Spill Contingency Plan"
+	Mauritius
+	"National Oil Spill Contingency Plan"
+	Mauritius -> "National Oil Spill Contingency Plan"
+	Mauritius
+	"National Oil Spill Contingency Plan"
+	Mauritius -> "National Oil Spill Contingency Plan"
+	"Vassen Kauppaymuthoo"
+	"National Oil Spill Contingency Plan"
+	"Vassen Kauppaymuthoo" -> "National Oil Spill Contingency Plan"
+	"MV Benita"
+	"National Oil Spill Contingency Plan"
+	"MV Benita" -> "National Oil Spill Contingency Plan"
+	"Inspector Shiva Coothen"
+	"National Oil Spill Contingency Plan"
+	"Inspector Shiva Coothen" -> "National Oil Spill Contingency Plan"
+	"Ratna Suboda"
+	"National Oil Spill Contingency Plan"
+	"Ratna Suboda" -> "National Oil Spill Contingency Plan"
+	"a Sri Lankan"
+	"National Oil Spill Contingency Plan"
+	"a Sri Lankan" -> "National Oil Spill Contingency Plan"
+	Mauritius
+	Fisheries
+	Mauritius -> Fisheries
+	Mauritius
+	Fisheries
+	Mauritius -> Fisheries
+	"Pravind Jugnauth"
+	Fisheries
+	"Pravind Jugnauth" -> Fisheries
+	"Sudheer Maudhoo"
+	Fisheries
+	"Sudheer Maudhoo" -> Fisheries
+	Mauritius
+	Fisheries
+	Mauritius -> Fisheries
+	Mauritius
+	Fisheries
+	Mauritius -> Fisheries
+	"Vassen Kauppaymuthoo"
+	Fisheries
+	"Vassen Kauppaymuthoo" -> Fisheries
+	"MV Benita"
+	Fisheries
+	"MV Benita" -> Fisheries
+	"Inspector Shiva Coothen"
+	Fisheries
+	"Inspector Shiva Coothen" -> Fisheries
+	"Ratna Suboda"
+	Fisheries
+	"Ratna Suboda" -> Fisheries
+	"a Sri Lankan"
+	Fisheries
+	"a Sri Lankan" -> Fisheries
+	Mauritius
+	BBC
+	Mauritius -> BBC
+	Mauritius
+	BBC
+	Mauritius -> BBC
+	"Pravind Jugnauth"
+	BBC
+	"Pravind Jugnauth" -> BBC
+	"Sudheer Maudhoo"
+	BBC
+	"Sudheer Maudhoo" -> BBC
+	Mauritius
+	BBC
+	Mauritius -> BBC
+	Mauritius
+	BBC
+	Mauritius -> BBC
+	"Vassen Kauppaymuthoo"
+	BBC
+	"Vassen Kauppaymuthoo" -> BBC
+	"MV Benita"
+	BBC
+	"MV Benita" -> BBC
+	"Inspector Shiva Coothen"
+	BBC
+	"Inspector Shiva Coothen" -> BBC
+	"Ratna Suboda"
+	BBC
+	"Ratna Suboda" -> BBC
+	"a Sri Lankan"
+	BBC
+	"a Sri Lankan" -> BBC
+	Mauritius
+	"the Blue Bay Marine Park Reserve"
+	Mauritius -> "the Blue Bay Marine Park Reserve"
+	Mauritius
+	"the Blue Bay Marine Park Reserve"
+	Mauritius -> "the Blue Bay Marine Park Reserve"
+	"Pravind Jugnauth"
+	"the Blue Bay Marine Park Reserve"
+	"Pravind Jugnauth" -> "the Blue Bay Marine Park Reserve"
+	"Sudheer Maudhoo"
+	"the Blue Bay Marine Park Reserve"
+	"Sudheer Maudhoo" -> "the Blue Bay Marine Park Reserve"
+	Mauritius
+	"the Blue Bay Marine Park Reserve"
+	Mauritius -> "the Blue Bay Marine Park Reserve"
+	Mauritius
+	"the Blue Bay Marine Park Reserve"
+	Mauritius -> "the Blue Bay Marine Park Reserve"
+	"Vassen Kauppaymuthoo"
+	"the Blue Bay Marine Park Reserve"
+	"Vassen Kauppaymuthoo" -> "the Blue Bay Marine Park Reserve"
+	"MV Benita"
+	"the Blue Bay Marine Park Reserve"
+	"MV Benita" -> "the Blue Bay Marine Park Reserve"
+	"Inspector Shiva Coothen"
+	"the Blue Bay Marine Park Reserve"
+	"Inspector Shiva Coothen" -> "the Blue Bay Marine Park Reserve"
+	"Ratna Suboda"
+	"the Blue Bay Marine Park Reserve"
+	"Ratna Suboda" -> "the Blue Bay Marine Park Reserve"
+	"a Sri Lankan"
+	"the Blue Bay Marine Park Reserve"
+	"a Sri Lankan" -> "the Blue Bay Marine Park Reserve"
+	Mauritius
+	"the US National Oceanic and Atmospheric Administration"
+	Mauritius -> "the US National Oceanic and Atmospheric Administration"
+	Mauritius
+	"the US National Oceanic and Atmospheric Administration"
+	Mauritius -> "the US National Oceanic and Atmospheric Administration"
+	"Pravind Jugnauth"
+	"the US National Oceanic and Atmospheric Administration"
+	"Pravind Jugnauth" -> "the US National Oceanic and Atmospheric Administration"
+	"Sudheer Maudhoo"
+	"the US National Oceanic and Atmospheric Administration"
+	"Sudheer Maudhoo" -> "the US National Oceanic and Atmospheric Administration"
+	Mauritius
+	"the US National Oceanic and Atmospheric Administration"
+	Mauritius -> "the US National Oceanic and Atmospheric Administration"
+	Mauritius
+	"the US National Oceanic and Atmospheric Administration"
+	Mauritius -> "the US National Oceanic and Atmospheric Administration"
+	"Vassen Kauppaymuthoo"
+	"the US National Oceanic and Atmospheric Administration"
+	"Vassen Kauppaymuthoo" -> "the US National Oceanic and Atmospheric Administration"
+	"MV Benita"
+	"the US National Oceanic and Atmospheric Administration"
+	"MV Benita" -> "the US National Oceanic and Atmospheric Administration"
+	"Inspector Shiva Coothen"
+	"the US National Oceanic and Atmospheric Administration"
+	"Inspector Shiva Coothen" -> "the US National Oceanic and Atmospheric Administration"
+	"Ratna Suboda"
+	"the US National Oceanic and Atmospheric Administration"
+	"Ratna Suboda" -> "the US National Oceanic and Atmospheric Administration"
+	"a Sri Lankan"
+	"the US National Oceanic and Atmospheric Administration"
+	"a Sri Lankan" -> "the US National Oceanic and Atmospheric Administration"
+	Mauritius
+	"World Bank"
+	Mauritius -> "World Bank"
+	Mauritius
+	"World Bank"
+	Mauritius -> "World Bank"
+	"Pravind Jugnauth"
+	"World Bank"
+	"Pravind Jugnauth" -> "World Bank"
+	"Sudheer Maudhoo"
+	"World Bank"
+	"Sudheer Maudhoo" -> "World Bank"
+	Mauritius
+	"World Bank"
+	Mauritius -> "World Bank"
+	Mauritius
+	"World Bank"
+	Mauritius -> "World Bank"
+	"Vassen Kauppaymuthoo"
+	"World Bank"
+	"Vassen Kauppaymuthoo" -> "World Bank"
+	"MV Benita"
+	"World Bank"
+	"MV Benita" -> "World Bank"
+	"Inspector Shiva Coothen"
+	"World Bank"
+	"Inspector Shiva Coothen" -> "World Bank"
+	"Ratna Suboda"
+	"World Bank"
+	"Ratna Suboda" -> "World Bank"
+	"a Sri Lankan"
+	"World Bank"
+	"a Sri Lankan" -> "World Bank"
+	Mauritius
+	Coastal
+	Mauritius -> Coastal
+	Mauritius
+	Coastal
+	Mauritius -> Coastal
+	"Pravind Jugnauth"
+	Coastal
+	"Pravind Jugnauth" -> Coastal
+	"Sudheer Maudhoo"
+	Coastal
+	"Sudheer Maudhoo" -> Coastal
+	Mauritius
+	Coastal
+	Mauritius -> Coastal
+	Mauritius
+	Coastal
+	Mauritius -> Coastal
+	"Vassen Kauppaymuthoo"
+	Coastal
+	"Vassen Kauppaymuthoo" -> Coastal
+	"MV Benita"
+	Coastal
+	"MV Benita" -> Coastal
+	"Inspector Shiva Coothen"
+	Coastal
+	"Inspector Shiva Coothen" -> Coastal
+	"Ratna Suboda"
+	Coastal
+	"Ratna Suboda" -> Coastal
+	"a Sri Lankan"
+	Coastal
+	"a Sri Lankan" -> Coastal
+	Mauritius
+	"Marine Contamination Prevention Project"
+	Mauritius -> "Marine Contamination Prevention Project"
+	Mauritius
+	"Marine Contamination Prevention Project"
+	Mauritius -> "Marine Contamination Prevention Project"
+	"Pravind Jugnauth"
+	"Marine Contamination Prevention Project"
+	"Pravind Jugnauth" -> "Marine Contamination Prevention Project"
+	"Sudheer Maudhoo"
+	"Marine Contamination Prevention Project"
+	"Sudheer Maudhoo" -> "Marine Contamination Prevention Project"
+	Mauritius
+	"Marine Contamination Prevention Project"
+	Mauritius -> "Marine Contamination Prevention Project"
+	Mauritius
+	"Marine Contamination Prevention Project"
+	Mauritius -> "Marine Contamination Prevention Project"
+	"Vassen Kauppaymuthoo"
+	"Marine Contamination Prevention Project"
+	"Vassen Kauppaymuthoo" -> "Marine Contamination Prevention Project"
+	"MV Benita"
+	"Marine Contamination Prevention Project"
+	"MV Benita" -> "Marine Contamination Prevention Project"
+	"Inspector Shiva Coothen"
+	"Marine Contamination Prevention Project"
+	"Inspector Shiva Coothen" -> "Marine Contamination Prevention Project"
+	"Ratna Suboda"
+	"Marine Contamination Prevention Project"
+	"Ratna Suboda" -> "Marine Contamination Prevention Project"
+	"a Sri Lankan"
+	"Marine Contamination Prevention Project"
+	"a Sri Lankan" -> "Marine Contamination Prevention Project"
+	Mauritius
+	"Sunil Kumar Nandeshwar"
+	Mauritius -> "Sunil Kumar Nandeshwar"
+	Mauritius
+	"Sunil Kumar Nandeshwar"
+	Mauritius -> "Sunil Kumar Nandeshwar"
+	"Pravind Jugnauth"
+	"Sunil Kumar Nandeshwar"
+	"Pravind Jugnauth" -> "Sunil Kumar Nandeshwar"
+	"Sudheer Maudhoo"
+	"Sunil Kumar Nandeshwar"
+	"Sudheer Maudhoo" -> "Sunil Kumar Nandeshwar"
+	Mauritius
+	"Sunil Kumar Nandeshwar"
+	Mauritius -> "Sunil Kumar Nandeshwar"
+	Mauritius
+	"Sunil Kumar Nandeshwar"
+	Mauritius -> "Sunil Kumar Nandeshwar"
+	"Vassen Kauppaymuthoo"
+	"Sunil Kumar Nandeshwar"
+	"Vassen Kauppaymuthoo" -> "Sunil Kumar Nandeshwar"
+	"MV Benita"
+	"Sunil Kumar Nandeshwar"
+	"MV Benita" -> "Sunil Kumar Nandeshwar"
+	"Inspector Shiva Coothen"
+	"Sunil Kumar Nandeshwar"
+	"Inspector Shiva Coothen" -> "Sunil Kumar Nandeshwar"
+	"Ratna Suboda"
+	"Sunil Kumar Nandeshwar"
+	"Ratna Suboda" -> "Sunil Kumar Nandeshwar"
+	"a Sri Lankan"
+	"Sunil Kumar Nandeshwar"
+	"a Sri Lankan" -> "Sunil Kumar Nandeshwar"
+	Mauritius
+	"The Institute for Security Studies"
+	Mauritius -> "The Institute for Security Studies"
+	Mauritius
+	"The Institute for Security Studies"
+	Mauritius -> "The Institute for Security Studies"
+	"Pravind Jugnauth"
+	"The Institute for Security Studies"
+	"Pravind Jugnauth" -> "The Institute for Security Studies"
+	"Sudheer Maudhoo"
+	"The Institute for Security Studies"
+	"Sudheer Maudhoo" -> "The Institute for Security Studies"
+	Mauritius
+	"The Institute for Security Studies"
+	Mauritius -> "The Institute for Security Studies"
+	Mauritius
+	"The Institute for Security Studies"
+	Mauritius -> "The Institute for Security Studies"
+	"Vassen Kauppaymuthoo"
+	"The Institute for Security Studies"
+	"Vassen Kauppaymuthoo" -> "The Institute for Security Studies"
+	"MV Benita"
+	"The Institute for Security Studies"
+	"MV Benita" -> "The Institute for Security Studies"
+	"Inspector Shiva Coothen"
+	"The Institute for Security Studies"
+	"Inspector Shiva Coothen" -> "The Institute for Security Studies"
+	"Ratna Suboda"
+	"The Institute for Security Studies"
+	"Ratna Suboda" -> "The Institute for Security Studies"
+	"a Sri Lankan"
+	"The Institute for Security Studies"
+	"a Sri Lankan" -> "The Institute for Security Studies"
+	Mauritius
+	"the African Union"
+	Mauritius -> "the African Union"
+	Mauritius
+	"the African Union"
+	Mauritius -> "the African Union"
+	"Pravind Jugnauth"
+	"the African Union"
+	"Pravind Jugnauth" -> "the African Union"
+	"Sudheer Maudhoo"
+	"the African Union"
+	"Sudheer Maudhoo" -> "the African Union"
+	Mauritius
+	"the African Union"
+	Mauritius -> "the African Union"
+	Mauritius
+	"the African Union"
+	Mauritius -> "the African Union"
+	"Vassen Kauppaymuthoo"
+	"the African Union"
+	"Vassen Kauppaymuthoo" -> "the African Union"
+	"MV Benita"
+	"the African Union"
+	"MV Benita" -> "the African Union"
+	"Inspector Shiva Coothen"
+	"the African Union"
+	"Inspector Shiva Coothen" -> "the African Union"
+	"Ratna Suboda"
+	"the African Union"
+	"Ratna Suboda" -> "the African Union"
+	"a Sri Lankan"
+	"the African Union"
+	"a Sri Lankan" -> "the African Union"
+	Mauritius
+	AU
+	Mauritius -> AU
+	Mauritius
+	AU
+	Mauritius -> AU
+	"Pravind Jugnauth"
+	AU
+	"Pravind Jugnauth" -> AU
+	"Sudheer Maudhoo"
+	AU
+	"Sudheer Maudhoo" -> AU
+	Mauritius
+	AU
+	Mauritius -> AU
+	Mauritius
+	AU
+	Mauritius -> AU
+	"Vassen Kauppaymuthoo"
+	AU
+	"Vassen Kauppaymuthoo" -> AU
+	"MV Benita"
+	AU
+	"MV Benita" -> AU
+	"Inspector Shiva Coothen"
+	AU
+	"Inspector Shiva Coothen" -> AU
+	"Ratna Suboda"
+	AU
+	"Ratna Suboda" -> AU
+	"a Sri Lankan"
+	AU
+	"a Sri Lankan" -> AU
+	Mauritius
+	"the Southern African Development Community"
+	Mauritius -> "the Southern African Development Community"
+	Mauritius
+	"the Southern African Development Community"
+	Mauritius -> "the Southern African Development Community"
+	"Pravind Jugnauth"
+	"the Southern African Development Community"
+	"Pravind Jugnauth" -> "the Southern African Development Community"
+	"Sudheer Maudhoo"
+	"the Southern African Development Community"
+	"Sudheer Maudhoo" -> "the Southern African Development Community"
+	Mauritius
+	"the Southern African Development Community"
+	Mauritius -> "the Southern African Development Community"
+	Mauritius
+	"the Southern African Development Community"
+	Mauritius -> "the Southern African Development Community"
+	"Vassen Kauppaymuthoo"
+	"the Southern African Development Community"
+	"Vassen Kauppaymuthoo" -> "the Southern African Development Community"
+	"MV Benita"
+	"the Southern African Development Community"
+	"MV Benita" -> "the Southern African Development Community"
+	"Inspector Shiva Coothen"
+	"the Southern African Development Community"
+	"Inspector Shiva Coothen" -> "the Southern African Development Community"
+	"Ratna Suboda"
+	"the Southern African Development Community"
+	"Ratna Suboda" -> "the Southern African Development Community"
+	"a Sri Lankan"
+	"the Southern African Development Community"
+	"a Sri Lankan" -> "the Southern African Development Community"
+}

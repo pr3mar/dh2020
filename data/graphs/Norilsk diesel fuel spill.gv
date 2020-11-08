@@ -1,0 +1,17 @@
+strict graph "Norilsk diesel fuel spill" {
+	Putin
+	"Sergei Lipin"
+	Putin -- "Sergei Lipin"
+	"Vladimir Putin"
+	"Norilsk Nickel"
+	"Vladimir Putin" -- "Norilsk Nickel"
+	"Ivan Nechepurenko"
+	"Minerals Yearbook"
+	"Ivan Nechepurenko" -- "Minerals Yearbook"
+	"Sergey Dyachenko"
+	"Vladimir Putin"
+	"Sergey Dyachenko" -- "Vladimir Putin"
+	"Alexander Uss"
+	"Ambarnaya Rivers"
+	"Alexander Uss" -- "Ambarnaya Rivers"
+}

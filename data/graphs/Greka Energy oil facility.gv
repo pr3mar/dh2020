@@ -1,0 +1,56 @@
+strict graph "Greka Energy oil facility" {
+	"David Sadecki"
+	Greka
+	"David Sadecki" -- Greka
+	"Cat Canyon"
+	"Gato
+Ridge"
+	"Cat Canyon" -- "Gato
+Ridge"
+	Kern
+	Greka -- Kern
+	"Andrew deVegvar"
+	"Greka Green"
+	"Andrew deVegvar" -- "Greka Green"
+	"Brooks Firestone's"
+	Greka -- "Brooks Firestone's"
+	"Paul WellmanHowever"
+	Greka -- "Paul WellmanHowever"
+	"William Boyer"
+	"Mike Brown"
+	"William Boyer" -- "Mike Brown"
+	Huainan
+	Huainan -- Greka
+	"Gone Wild"
+	"Gone Wild" -- Greka
+	"Joni Gray"
+	"Joe Centeno"
+	"Joni Gray" -- "Joe Centeno"
+	"Proc-Type"
+	"TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB"
+	"Proc-Type" -- "TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB"
+	"Proc-Type"
+	"Mark One"
+	"Proc-Type" -- "Mark One"
+	"TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB"
+	"Mark One"
+	"TWSM7vrzLADbmYQaionwg5sDW3P6oaM5D3tdezXMm7z1T+B+twIDAQAB" -- "Mark One"
+	Davis
+	Greka -- Davis
+	Kerosene
+	"Gas OilOwner"
+	Kerosene -- "Gas OilOwner"
+	"Santa Maria Refining"
+	Kerosene -- "Santa Maria Refining"
+	Kerosene -- Greka
+	"Gas OilOwner"
+	"Santa Maria Refining"
+	"Gas OilOwner" -- "Santa Maria Refining"
+	"Gas OilOwner"
+	"Gas OilOwner" -- Greka
+	"Santa Maria Refining"
+	"Santa Maria Refining" -- Greka
+	Wolf
+	Greka -- Wolf
+	Greka -- Greka
+}

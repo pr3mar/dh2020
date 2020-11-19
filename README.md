@@ -39,7 +39,7 @@ flask run
 - [API, Bitcoin and Machine Learning integration](./be)
 - [Visualization](./fe) <- Webpage design
 - [Data](./data) <- Scraped and serialized data 
-
+- [UI/UX Mockup](./mockups) <- Designed mockup
 
 ## Initial data 
 
